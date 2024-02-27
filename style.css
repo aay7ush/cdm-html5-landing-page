@@ -16,7 +16,7 @@ button {
   outline: none;
   background: none;
   width: 100%;
-  color: #fff;
+  color: rgb(255, 255, 255);
   border-radius: 0.3rem;
 }
 
@@ -25,7 +25,7 @@ a {
 }
 
 a:hover {
-  color: #41b494;
+  color: rgb(65, 180, 148);
 }
 
 body {
@@ -34,7 +34,7 @@ body {
   line-height: 1.5;
 
   background: url('/assets/bg.jpg') center no-repeat;
-  color: #8a9093;
+  color: rgb(138, 144, 147);
   padding: 1rem 3rem;
   min-height: 100vh;
   display: grid;
@@ -51,7 +51,7 @@ body {
 }
 
 h1 {
-  color: white;
+  color: rgb(255, 255, 255);
   letter-spacing: 2px;
 }
 
@@ -88,19 +88,19 @@ form div {
 }
 
 input {
-  border: 2px solid #8a9093;
+  border: 2px solid rgb(138, 144, 147);
   text-indent: 1rem;
   padding-block: 0.5rem;
 }
 
 .error {
   display: none;
-  color: #ff0000;
+  color: rgb(255, 0, 0);
 }
 
 button {
   cursor: pointer;
-  background-color: #41b494;
+  background-color: rgb(65, 180, 148);
   padding: 0.6rem 1rem;
   font-weight: 700;
   margin-bottom: auto;
@@ -108,7 +108,7 @@ button {
 }
 
 button:hover {
-  background-color: #328e74;
+  background-color: rgb(50, 142, 116);
 }
 
 .socials {

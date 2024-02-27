@@ -16,12 +16,12 @@ form.addEventListener('submit', (event) => {
     alert('Thank You for Subscribing!')
     emailInput.value = ''
   } else {
-    emailInput.style.borderColor = '#ff0000'
+    emailInput.style.borderColor = 'rgb(255, 0, 0)'
     errorText.style.display = 'block'
   }
 })
 
 emailInput.addEventListener('keydown', () => {
-  emailInput.style.borderColor = '#8a9093'
+  emailInput.style.borderColor = 'rgb(138, 144, 147)'
   errorText.style.display = 'none'
 })
